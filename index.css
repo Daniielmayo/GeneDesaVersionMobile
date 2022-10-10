@@ -1,0 +1,165 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;}
+:root{
+    --primaryFont: ;
+    --white:#FFFFFF;
+    --whiteBackground:#FCFCFC;
+    --darkGray:#707070;
+    --greenDesafiante:#168991;
+    --yellow:#FAD047;
+    --blueTitle:#1A2284;
+    --blueContent:#234E67;
+}
+
+
+
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 80px;
+    min-width: 320px;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    background-color: #ffffff;
+    padding: 15px 0;
+    /* box-shadow: rgba(255, 255, 255, 0.6); */
+  }
+
+  .button{
+    width: 120px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
+    padding: 5px;
+    margin: 0 3px;
+  }
+
+  .button-sesion{
+    background-color: var(--whiteBackground);
+    color: var(--greenDesafiante);
+  }
+
+  .button-registration{
+    background-color: var(--greenDesafiante);
+    color: var(--whiteBackground);
+  }
+
+
+
+
+
+  .regresemos{
+    margin-top: 90px;
+    height: 40vh;
+    padding: 10px;
+  }
+
+  .regresemos-title{
+    text-align: center;
+    margin-bottom: 10px;
+    color: var(--blueContent);
+    font-weight: bold;
+  }
+  .regresemos-title .color-yellow{
+        color: var(--yellow);
+    }
+  .regresemos-container{
+    display: flex;
+    justify-content: space-around;
+
+  }
+  .regresemos-container p{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5px 2px;
+    color: var(--greenDesafiante);
+  }
+  .regresemos-container_img{
+    min-width: 200px;
+    max-width: 550px;
+    height: 180px;
+    max-height: 450px;
+  }
+
+
+
+  .conectate{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin-top:50px;
+    background-color: var(--yellow);
+    height: 80vh;
+    color: var(--white);
+  }
+  .espacio{
+    margin-bottom: 30px;
+  }
+  .material-symbols-outlined{
+    font-weight: bold;
+  }
+  .conectate-title espacio{
+    font-weight: bold;
+  }
+  .invitacion_video{
+    border-radius: 15px;
+  }
+
+
+
+
+  .encuentra{
+    /* margin-top: 200px; */
+    height: 50vh;
+    margin-top:40px;
+    padding: 10px;
+  }
+  .encuetra-container_title{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center ; */
+    align-items: center;
+  }
+  .icon{
+    font-size: 30px;
+    color: var(--blueContent);
+    margin-bottom: 5px;
+    
+  }
+  .encuentra-title{
+    text-align: center;
+    margin-bottom: 10px;
+    color: var(--blueContent);
+    font-weight: bold;
+  }
+  .color-yellow_encuentra{
+    color: var(--yellow);
+    font-weight: bold;
+  }
+  .encuentra-container{
+    display: flex;
+    justify-content: space-around;
+  }
+  .encuentra-container_text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5px 2px;
+    color: var(--greenDesafiante);
+  }
+  .encuentra-container_img{
+    min-width: 200px;
+    max-width: 550px;
+    height: 120px;
+    max-height: 450px;
+  }
