@@ -99,7 +99,7 @@
     padding: 20px;
     margin-top:50px;
     background-color: var(--yellow);
-    height: 80vh;
+    height: 90vh;
     color: var(--white);
   }
   .espacio{
@@ -107,6 +107,7 @@
   }
   .material-symbols-outlined{
     font-weight: bold;
+    margin-top: 20px;
   }
   .conectate-title espacio{
     font-weight: bold;
